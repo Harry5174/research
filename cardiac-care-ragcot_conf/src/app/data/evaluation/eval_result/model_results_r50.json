@@ -1,0 +1,225 @@
+[
+    {
+        "query": "What is the patient's MELD score on admission?",
+        "gemini_answer": "The patient's MELD score was 10 on admission.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "A MELD score cannot be calculated from the information provided. The following labs are needed: total bilirubin, INR, creatinine, and sodium.",
+            "I am sorry, but the provided context does not contain the information needed to calculate the MELD score.",
+            "The patient's MELD score was 10 on admission.",
+            "The MELD score cannot be calculated from the information provided. The MELD score requires the following lab values: total bilirubin, INR, and creatinine."
+        ]
+    },
+    {
+        "query": "Which medication was discontinued due to high potassium levels?",
+        "gemini_answer": "No medication was discontinued due to high potassium levels. Losartan was initially held due to a likely prerenal condition from sepsis, but it was restarted on discharge.",
+        "original_answer": "Spironolactone",
+        "source_documents": [
+            "Lactulose was given for confusion, extra fluids were given for low blood pressure, and potassium levels improved as well. Therefore, no medication was discontinued due to high potassium levels.",
+            "The provided text does not mention any medication being discontinued due to high potassium levels. Losartan was initially held due to a likely prerenal condition from sepsis, but it was restarted on discharge."
+        ]
+    },
+    {
+        "query": "What procedure was performed to remove fluid from the patient's abdomen?",
+        "gemini_answer": "Fluid was removed from the patient's abdomen via paracentesis. A drain was also placed to remove fluid from a left abdominal fluid collection. For large pelvic fluid collections, CT-guided repositioning of an existing drain and placement of an additional drain was performed.",
+        "original_answer": "Therapeutic paracentesis",
+        "source_documents": [
+            "Fluid was removed from your abdomen via paracentesis.",
+            "A large volume paracentesis was performed, removing 4.5L of fluids from the patient's abdomen. After the procedure, her abdomen was less distended and less painful. Fluid analysis did not reveal SBP.",
+            "The patient underwent CT-guided JP drain placement for intra-abdominal fluid collection and infection. For the large pelvic fluid collections, CT-guided repositioning of existing drain and placement of an additional drain was performed. Also, removal of more recently placed drain.",
+            "A drain was placed to remove fluid from a left abdominal fluid collection. After interval imaging showed the fluid collection had completely collapsed, the drain was removed. A prior drain that was already in place was repositioned."
+        ]
+    },
+    {
+        "query": "What is the furosemide dosage prescribed on discharge?",
+        "gemini_answer": "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for furosemide 40 mg, 1 tablet by mouth daily, Disp #30 tablets, Refills: 3.",
+        "original_answer": "40 mg PO DAILY",
+        "source_documents": [
+            "One (1) Tablet PO DAILY (Daily). Disp:*30 Tablet(s)* Refills:*2*",
+            "The patient was discharged with Torsemide 40 mg PO DAILY. The prescription was for torsemide 20 mg, 2 tablets by mouth once daily.",
+            "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for furosemide 40 mg, 1 tablet by mouth daily, Disp #30 tablets, Refills: 3.",
+            "The provided text does not include information on furosemide dosage. It states to CONTINUE torsemide 10mg daily."
+        ]
+    },
+    {
+        "query": "Was the patient scheduled for outpatient paracentesis?",
+        "gemini_answer": "Yes, the patient is scheduled for a repeat paracentesis as an outpatient. Another patient has HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses and would like to continue biweekly paracenteses as an outpatient.",
+        "original_answer": "Yes",
+        "source_documents": [
+            "Yes, the patient is scheduled for a repeat paracentesis as an outpatient.",
+            "No, the patient underwent a diagnostic paracentesis in the ED. She was admitted to Medicine for further management.",
+            "Yes, the patient has HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses. She felt overdue for a paracentesis. She last had paracentesis on the [DATE].",
+            "Yes, the patient is maintained on twice weekly paracentesis. She was at her regular session yesterday when she had hypotension.",
+            "Yes, the patient would like to continue biweekly paracenteses as an outpatient."
+        ]
+    },
+    {
+        "query": "What dietary instructions were given on discharge?",
+        "gemini_answer": "The discharge instructions state to drink adequate amounts of fluids. Increase your intake of fluids and fiber, as narcotic pain medicine can cause constipation. If you are being sent home on steroid medication, make sure you are taking a medication to protect your stomach and take your steroid medication with meals, or a glass of milk.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "The patient was instructed to not eat constipating foods for weeks and to drink plenty of fluids. They were advanced to a clears/toast and crackers diet and the diet was advanced as tolerated.",
+            "The discharge instructions do not mention specific dietary instructions. The instructions do state to drink adequate amounts of fluids.",
+            "Increase your intake of fluids and fiber, as narcotic pain medicine can cause constipation. If you are being sent home on steroid medication, make sure you are taking a medication to protect your stomach and take your steroid medication with meals, or a glass of milk."
+        ]
+    },
+    {
+        "query": "What is the patient's discharge diagnosis?",
+        "gemini_answer": "The patient's discharge diagnosis is coronary artery disease, transient dysarthria not secondary to TIA or stroke and mild Vitamin B12 deficiency, atypical chest pain with secondary diagnoses of hypertension, asthma, and diverticulitis, or dementia.",
+        "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",
+        "source_documents": [
+            "The patient's discharge diagnosis is coronary artery disease.",
+            "The patient's discharge diagnosis is transient dysarthria not secondary to TIA or stroke and mild Vitamin B12 deficiency.",
+            "The patient's primary discharge diagnosis is atypical chest pain. Secondary diagnoses include hypertension, asthma, and diverticulitis.",
+            "The patient's discharge diagnosis is dementia."
+        ]
+    },
+    {
+        "query": "What were the lab values for serum sodium on admission?",
+        "gemini_answer": "The serum sodium values on admission were: 134 at 06:35 AM, 132 at 04:24 AM, and 135 at 11:30 AM.\nThe patient's serum sodium was 125 on admission.\nThe patient's serum sodium level on admission was 146.\nThe serum sodium on admission at 06:02 PM was 140.",
+        "original_answer": "125",
+        "source_documents": [
+            "The serum sodium on admission at 06:02 PM was 140. At discharge at 02:59 AM, the serum sodium was 138.",
+            "The patient's serum sodium was 125 on admission. It was 128 four days prior to admission and 135 one month prior.",
+            "The patient's serum sodium level on admission was 146.",
+            "The serum sodium values on admission were: 134 at 06:35 AM, 132 at 04:24 AM, and 135 at 11:30 AM.",
+            "The provided context does not include information about serum sodium levels on admission."
+        ]
+    },
+    {
+        "query": "Which medications were prescribed for hepatic encephalopathy?",
+        "gemini_answer": "Lactulose and rifaximin were prescribed for hepatic encephalopathy. However, another part of the record states that no medications were explicitly prescribed for hepatic encephalopathy.",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "Lactulose and rifaximin were prescribed for hepatic encephalopathy. The patient reported not taking lactulose regularly at home, but her mental status improved with lactulose in the ED.",
+            "Lactulose was prescribed as part of the bowel regimen. The context does not explicitly state that lactulose is for hepatic encephalopathy, but it is included in the bowel regimen.",
+            "Lactulose was given as part of the bowel regimen, but no medications were explicitly prescribed for hepatic encephalopathy."
+        ]
+    },
+    {
+        "query": "What was the reason for performing paracentesis?",
+        "gemini_answer": "Paracentesis was performed to remove fluid from the abdomen (ascites) causing abdominal distention, discomfort, and pain. The procedures were done due to cirrhosis or worsening ascites. The paracentesis was therapeutic.",
+        "original_answer": "Abdominal pain and worsening distension due to ascites",
+        "source_documents": [
+            "The paracentesis was performed to remove fluid from the abdomen, which was causing worsening abdominal pain due to cirrhosis. After the procedure, the patient's pain improved significantly.",
+            "A large volume paracentesis was performed to relieve abdominal distention and pain. 4.5L of fluids were removed during the procedure.",
+            "Therapeutic paracentesis with 4.3L removed was performed due to worsening ascites. The patient felt much better with resolution of abdominal discomfort after the procedure.",
+            "The patient has HCV cirrhosis with ascites requiring biweekly therapeutic paracenteses. She presented with worsening girth and abdominal pain and felt overdue for a paracentesis.",
+            "The patient presented with worsening ascites and underwent paracentesis. She reported a significant improvement in her pain after the removal of 3.5L of fluid."
+        ]
+    },
+    {
+        "query": "What were the initial vital signs in the ED?",
+        "gemini_answer": "Here are the initial vital signs in the ED from the provided contexts:\n\n*   Temperature: 97.6, 98.7, 98.0, 99.8\n*   Heart rate: 117, 77, 116, 105\n*   Blood pressure: 128/74, 96/50, 100/49, 125/76\n*   Respiratory rate: 18, 16, 24, 20\n*   Oxygen saturation: 95% on room air, 98% on room air, 99% on room air, 99% on room air.",
+        "original_answer": "98.4\u00b0F, HR 70, BP 106/63, RR 16, SpO2 97% on RA",
+        "source_documents": [
+            "The initial vital signs in the ED were: temperature 97.6, heart rate 117, blood pressure 128/74, respiratory rate 18, and oxygen saturation 95% on room air.",
+            "The initial vital signs in the ED were 98.7 temperature, 77 heart rate, 96/50 blood pressure, 16 respiratory rate, and 98% oxygen saturation on room air.",
+            "The initial vital signs in the ED were: 98.0 (temperature), 116 (heart rate), 100/49 (blood pressure), 24 (respiratory rate), and 99% RA (oxygen saturation on room air).",
+            "The initial vital signs were: Temperature 99.8, BP 125/76, HR 105, RR 20, and 99% on room air."
+        ]
+    },
+    {
+        "query": "What are the key elements of the patient's past medical history?",
+        "gemini_answer": "To provide an accurate answer, please specify which patient's past medical history you are asking about. There are five different patient histories provided.",
+        "original_answer": "HCV cirrhosis, HIV on ART, history of IVDU, COPD, bipolar disorder, and PTSD",
+        "source_documents": [
+            "The patient's past medical history includes HCV Cirrhosis, COPD, HIV disease, a history of abnormal anal pap smears, bipolar affective disorder (currently manic, mild, and PTSD), and a past history of smoking, cocaine, and heroin use. She also had calcification in her breast, which was removed and was benign, a skin lesion that was biopsied and showed skin cancer, and another lesion in her forehead with purple discoloration. Additionally, she has a 15 mm hypoechoic lesion being monitored by MRI.",
+            "The patient's past medical history includes asthma, hypertension, hyperlipidemia, headache, osteoarthritis, atypical chest pain, tobacco abuse, abnormal chest x-ray, and COPD. She also has a history of tachyarrhythmias and a recent stress test with a reversible lesion being treated conservatively.",
+            "The patient's past medical history includes right parietal anaplastic astrocytoma, craniotomy, irradiation to 6,120 cGy, 3 cycles of Temodar, wound revision and removal of exposed craniotx hardware, Accutane use for 2 weeks, tubal ligation, tonsillectomy, bronchitis, and depression. She also has a history of seizures.",
+            "The patient's past medical history includes Body Dementia, dyslipidemia, and prostate cancer (status post prostatectomy).",
+            "The patient's past medical history includes depression, hyperlipidemia, Hysterectomy, B12 deficiency, back pain, carcinoid, cervical DJD, osteoarthritis, and a history of high grade SBO s/p exploratory laparotomy, lysis of adhesions, and small bowel resection with enteroenterostomy."
+        ]
+    },
+    {
+        "query": "What did the patient report about her medication adherence?",
+        "gemini_answer": "The patient denies missing any medication doses. However, she stated she hasn't taken theophylline since an unspecified date, even though it is not on her medication list.",
+        "original_answer": "The patient self-discontinued lasix and spironolactone because she felt they didn't do anything",
+        "source_documents": [
+            "The patient denies missed medication doses.",
+            "The patient stated she hasn't taken theophylline since an unspecified date, although it is not on her medication list. However, her PCP is concerned that the theophylline may be contributing to her condition."
+        ]
+    },
+    {
+        "query": "What imaging studies were performed in the ED?",
+        "gemini_answer": "The imaging studies performed in the ED were a CXR and a T-spine film. X-rays of the back were also performed.",
+        "original_answer": "Ultrasound and CT scan were performed",
+        "source_documents": [
+            "CXR was performed in the ED. The CXR did not show significant pulmonary edema, pleural effusions, or consolidation.",
+            "MDCT axial images were obtained through the abdomen and pelvis after the administration of oral contrast. Multiplanar reformatted images were also obtained. No IV contrast was administered.",
+            "A T-spine film was performed in the ED and was without fractures or dislocations. A CXR was also performed, which showed mild congestive heart failure and a widened superior mediastinum with leftward deviation of the trachea.",
+            "X-rays of the back were performed, which showed no evidence of fracture or bone infection.",
+            "The imaging studies performed were a chest X-ray (PA and LAT) and a P-MIBI. The P-MIBI included Tc-99m Sestamibi Rest and Stress images, and Gated SPECT imaging."
+        ]
+    },
+    {
+        "query": "What lab abnormalities were noted on admission?",
+        "gemini_answer": "On admission, the patient had hyponatremia with a sodium level of 126 or 125, hyperkalemia with a potassium level of 6.7, elevated ALT of 153, elevated AST of 275, elevated total bilirubin of 1.9, and an elevated INR of 1.5. The patient also had low albumin of 2.8 and mild thrombocytopenia with platelets at 143.",
+        "original_answer": "ALT 100, AST 114, Tbili 1.6, WBC 5K, platelet 77, INR 1.6",
+        "source_documents": [
+            "On admission, the patient's labs were notable for Na 126, K 6.7, Cr 0.7 (baseline 0.4), ALT 153, AST 275, TBili 1.9, Lip 66, and INR 1.5.",
+            "There is no information about lab abnormalities in the provided context.",
+            "The patient presented with persistent fevers and leukocytosis on admission.",
+            "On admission, the patient had hyponatremia with a sodium level of 125, and low albumin of 2.8. She also had mild thrombocytopenia with platelets at 143."
+        ]
+    },
+    {
+        "query": "What was the patient's chief complaint on admission?",
+        "gemini_answer": "Here are the chief complaints described in the context:\n\n*   \"I have been overwhelmed and I felt suicidal.\"\n*   Malaise and shortness of breath (SOB) during an episode of tachyarrhythmia.\n*   Worsening abdominal distension and pain.\n*   Dyspnea.\n*   Dyspnea and chest tightness.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "The patient's chief complaint was, \"I have been overwhelmed and I felt suicidal.\"",
+            "The patient's chief complaint was malaise and shortness of breath (SOB) during an episode of tachyarrhythmia at home, which has since resolved.",
+            "The patient's chief complaint was worsening abdominal distension and pain.",
+            "The patient's chief complaint was dyspnea. She had been experiencing increasing dyspnea and a non-productive cough for days.",
+            "The patient's chief complaint was dyspnea and chest tightness. She experienced acute onset shortness of breath and substernal chest tightness since the evening prior to admission. She described feeling like she could not take deep breaths and noted the chest tightness felt like her \"angina\"."
+        ]
+    },
+    {
+        "query": "What service was the patient admitted to?",
+        "gemini_answer": "The patient was admitted to the Surgery, PSYCHIATRY, orthopedic surgery, MEDICINE, and Obstetrics/Gynecology services.",
+        "original_answer": "MEDICINE",
+        "source_documents": [
+            "The patient was admitted to the Surgery Service.",
+            "The patient was admitted to the PSYCHIATRY service.",
+            "The patient was admitted to the orthopedic surgery service.",
+            "The patient was admitted to the MEDICINE service.",
+            "The patient was admitted to Obstetrics/Gynecology service."
+        ]
+    },
+    {
+        "query": "What is the patient's sex?",
+        "gemini_answer": "The patient's sex is female. The patient is also male.",
+        "original_answer": "F",
+        "source_documents": [
+            "The patient's sex is female (F).",
+            "The patient is a male.",
+            "The patient's sex is female (F).",
+            "F"
+        ]
+    },
+    {
+        "query": "What is the patient's allergy status?",
+        "gemini_answer": "The patient is allergic to Codeine, gabapentin, morphine, Amoxicillin, metronidazole, propoxyphene, rofecoxib, Macrobid, furosemide, Amitiza, Sulfa (Sulfonamide Antibiotics), Tylenol, Hydromorphone, and Toradol. The patient also has no known drug allergies.",
+        "original_answer": "No Known Allergies / Adverse Drug Reactions",
+        "source_documents": [
+            "The patient has no known allergies or adverse drug reactions.",
+            "The patient is allergic to Codeine, gabapentin, morphine, Amoxicillin, metronidazole, propoxyphene, rofecoxib, Macrobid, furosemide, Amitiza, Sulfa (Sulfonamide Antibiotics), Tylenol, Hydromorphone, and Toradol.",
+            "The patient has no known allergies or adverse drug reactions.",
+            "The patient has no known allergies or adverse drug reactions.",
+            "The patient has no known allergies to drugs."
+        ]
+    },
+    {
+        "query": "What mental status changes did the patient experience?",
+        "gemini_answer": "The patients experienced confusion secondary to hepatic encephalopathy, visual hallucinations, altered mental status, and memory loss. One patient was only oriented to person in the ED. Another patient experienced depressed mood, anxiety, anhedonia, social isolation and withdrawal, escalating feelings of guilt, poor sleep secondary to ruminations of guilt, and trouble concentrating.",
+        "original_answer": "Brief period of confusion and forgetfulness",
+        "source_documents": [
+            "The patient experienced depressed mood and anxiety symptoms (panic). He also experienced anhedonia, social isolation & withdrawal, escalating feelings of guilt, poor sleep secondary to ruminations of guilt, and trouble concentrating.",
+            "The patient presented with confusion that was most likely secondary to hepatic encephalopathy. Her mental status improved with lactulose in the ED. She has had a steady decline in decompensated cirrhosis and mental status based on outpatient records.",
+            "Upon arrival, the patient denied suicidal ideation (SI), intent, and plan but admitted to feeling depressed and anxious. After starting Celexa and Klonopin, the patient reported significant anxiety reduction and resolution of depressive symptoms and all SI/SIB urges within days. He stated he realized he had overreacted and wanted to be discharged to return to school.",
+            "The patient experienced altered mental status and felt lightheaded. Her memory became fuzzy after experiencing hypotension. She was only oriented to person in the ED.",
+            "The patient experienced visual hallucinations and confusion. On the day of presentation to the hospital, the patient began to experience visual hallucinations of a motor cross race in his backyard."
+        ]
+    }
+]

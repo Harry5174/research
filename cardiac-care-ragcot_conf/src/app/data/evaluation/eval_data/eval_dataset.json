@@ -1,0 +1,43 @@
+[
+    {
+      "question": "What is the MELD score of the patient on admission?",
+      "answer": "MELD score of 10"
+    },
+    {
+      "question": "What medications were discontinued due to high potassium levels?",
+      "answer": "Spironolactone"
+    },
+    {
+      "question": "What procedure was used to remove fluid from the patient's abdomen?",
+      "answer": "Therapeutic paracentesis"
+    },
+    {
+      "question": "What is the dosage of furosemide prescribed on discharge?",
+      "answer": "40 mg PO DAILY"
+    },
+    {
+      "question": "Was the patient scheduled for outpatient paracentesis?",
+      "answer": "Yes"
+    },
+    {
+      "question": "What dietary instructions were given on discharge?",
+      "answer": "Low salt diet and fluid restriction"
+    },
+    {
+      "question": "What is the patient's diagnosis on discharge?",
+      "answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD"
+    },
+    {
+      "question": "What were the lab values for serum sodium on admission?",
+      "answer": "125"
+    },
+    {
+      "question": "What medications were prescribed for hepatic encephalopathy?",
+      "answer": "Lactulose 30mL TID and Rifaximin 550mg BID"
+    },
+    {
+      "question": "What was the reason for the therapeutic paracentesis?",
+      "answer": "Abdominal pain and worsening distension due to ascites"
+    }
+  ]
+  

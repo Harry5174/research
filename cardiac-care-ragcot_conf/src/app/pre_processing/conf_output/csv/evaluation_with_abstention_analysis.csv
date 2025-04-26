@@ -1,0 +1,36 @@
+question,ground_truth,model_answer,exact_match,f1_score,abstained,correct_abstention,hallucinated
+What is the patient's MELD score on admission?,MELD score of 10,The patient's MELD score was 10 on admission.,0,0.5,False,0,0
+Which medication was discontinued due to high potassium levels?,Spironolactone,"No medication was discontinued due to high potassium levels. Losartan was initially held due to a likely prerenal condition from sepsis, but it was restarted on discharge.",0,0.0,False,0,0
+What procedure was performed to remove fluid from the patient's abdomen?,Therapeutic paracentesis,"Fluid was removed from the patient's abdomen via paracentesis. A drain was also placed to remove fluid from a left abdominal fluid collection. For large pelvic fluid collections, CT-guided repositioning of an existing drain and placement of an additional drain was performed.",0,0.0,False,0,0
+What is the furosemide dosage prescribed on discharge?,40 mg PO DAILY,"The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for furosemide 40 mg, 1 tablet by mouth daily, Disp #30 tablets, Refills: 3.",0,0.231,False,0,0
+Was the patient scheduled for outpatient paracentesis?,Yes,"Yes, the patient is scheduled for a repeat paracentesis as an outpatient. Another patient has HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses and would like to continue biweekly paracenteses as an outpatient.",0,0.0,False,0,0
+What dietary instructions were given on discharge?,Low salt diet and fluid restriction,"The discharge instructions state to drink adequate amounts of fluids. Increase your intake of fluids and fiber, as narcotic pain medicine can cause constipation. If you are being sent home on steroid medication, make sure you are taking a medication to protect your stomach and take your steroid medication with meals, or a glass of milk.",0,0.039,False,0,0
+What is the patient's discharge diagnosis?,"Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD","The patient's discharge diagnosis is coronary artery disease, transient dysarthria not secondary to TIA or stroke and mild Vitamin B12 deficiency, atypical chest pain with secondary diagnoses of hypertension, asthma, and diverticulitis, or dementia.",0,0.0,False,0,0
+What were the lab values for serum sodium on admission?,125,"The serum sodium values on admission were: 134 at 06:35 AM, 132 at 04:24 AM, and 135 at 11:30 AM.
+The patient's serum sodium was 125 on admission.
+The patient's serum sodium level on admission was 146.
+The serum sodium on admission at 06:02 PM was 140.",0,0.074,False,0,0
+Which medications were prescribed for hepatic encephalopathy?,Lactulose 30mL TID and Rifaximin 550mg BID,"Lactulose and rifaximin were prescribed for hepatic encephalopathy. However, another part of the record states that no medications were explicitly prescribed for hepatic encephalopathy.",0,0.231,False,0,0
+What was the reason for performing paracentesis?,Abdominal pain and worsening distension due to ascites,"Paracentesis was performed to remove fluid from the abdomen (ascites) causing abdominal distention, discomfort, and pain. The procedures were done due to cirrhosis or worsening ascites. The paracentesis was therapeutic.",0,0.303,False,0,0
+What were the initial vital signs in the ED?,"98.4°F, HR 70, BP 106/63, RR 16, SpO2 97% on RA","Here are the initial vital signs in the ED from the provided contexts:
+
+*   Temperature: 97.6, 98.7, 98.0, 99.8
+*   Heart rate: 117, 77, 116, 105
+*   Blood pressure: 128/74, 96/50, 100/49, 125/76
+*   Respiratory rate: 18, 16, 24, 20
+*   Oxygen saturation: 95% on room air, 98% on room air, 99% on room air, 99% on room air.",0,0.074,False,0,0
+What are the key elements of the patient's past medical history?,"HCV cirrhosis, HIV on ART, history of IVDU, COPD, bipolar disorder, and PTSD","To provide an accurate answer, please specify which patient's past medical history you are asking about. There are five different patient histories provided.",0,0.057,False,0,0
+What did the patient report about her medication adherence?,The patient self-discontinued lasix and spironolactone because she felt they didn't do anything,"The patient denies missing any medication doses. However, she stated she hasn't taken theophylline since an unspecified date, even though it is not on her medication list.",0,0.158,False,0,0
+What imaging studies were performed in the ED?,Ultrasound and CT scan were performed,The imaging studies performed in the ED were a CXR and a T-spine film. X-rays of the back were also performed.,0,0.261,False,0,0
+What lab abnormalities were noted on admission?,"ALT 100, AST 114, Tbili 1.6, WBC 5K, platelet 77, INR 1.6","On admission, the patient had hyponatremia with a sodium level of 126 or 125, hyperkalemia with a potassium level of 6.7, elevated ALT of 153, elevated AST of 275, elevated total bilirubin of 1.9, and an elevated INR of 1.5. The patient also had low albumin of 2.8 and mild thrombocytopenia with platelets at 143.",0,0.12,False,0,0
+What was the patient's chief complaint on admission?,Worsening abdominal distension and pain,"Here are the chief complaints described in the context:
+
+*   ""I have been overwhelmed and I felt suicidal.""
+*   Malaise and shortness of breath (SOB) during an episode of tachyarrhythmia.
+*   Worsening abdominal distension and pain.
+*   Dyspnea.
+*   Dyspnea and chest tightness.",0,0.205,False,0,0
+What service was the patient admitted to?,MEDICINE,"The patient was admitted to the Surgery, PSYCHIATRY, orthopedic surgery, MEDICINE, and Obstetrics/Gynecology services.",0,0.0,False,0,0
+What is the patient's sex?,F,The patient's sex is female. The patient is also male.,0,0.0,False,0,0
+What is the patient's allergy status?,No Known Allergies / Adverse Drug Reactions,"The patient is allergic to Codeine, gabapentin, morphine, Amoxicillin, metronidazole, propoxyphene, rofecoxib, Macrobid, furosemide, Amitiza, Sulfa (Sulfonamide Antibiotics), Tylenol, Hydromorphone, and Toradol. The patient also has no known drug allergies.",0,0.171,False,0,0
+What mental status changes did the patient experience?,Brief period of confusion and forgetfulness,"The patients experienced confusion secondary to hepatic encephalopathy, visual hallucinations, altered mental status, and memory loss. One patient was only oriented to person in the ED. Another patient experienced depressed mood, anxiety, anhedonia, social isolation and withdrawal, escalating feelings of guilt, poor sleep secondary to ruminations of guilt, and trouble concentrating.",0,0.128,False,0,0

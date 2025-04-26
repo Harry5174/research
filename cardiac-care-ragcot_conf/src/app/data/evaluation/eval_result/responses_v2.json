@@ -1,0 +1,122 @@
+[
+    {
+        "query": "What is the MELD score of the patient on admission?",
+        "response": "The MELD score of the patient on admission is 10.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "Not available.",
+            "MELD score of 10",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What medications were discontinued due to high potassium levels?",
+        "response": "The context does not provide information about any medications being discontinued due to high potassium levels.",
+        "original_answer": "Spironolactone",
+        "source_documents": [
+            "Spironolactone",
+            "spironolactone",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What procedure was used to remove fluid from the patient's abdomen?",
+        "response": "The procedure used to remove fluid from the patient's abdomen is called paracentesis.",
+        "original_answer": "Therapeutic paracentesis",
+        "source_documents": [
+            "a paracentesis",
+            "diagnostic paracentesis, therapeutic paracentesis",
+            "a diagnostic and therapeutic paracentesis",
+            "Paracentesis",
+            "therapeutic paracentesis"
+        ]
+    },
+    {
+        "query": "What is the dosage of furosemide prescribed on discharge?",
+        "response": "The context does not provide information on the dosage of furosemide prescribed on discharge.",
+        "original_answer": "40 mg PO DAILY",
+        "source_documents": [
+            "Furosemide 10 mg PO DAILY",
+            "Furosemide 40 mg PO DAILY",
+            "Furosemide 10mg daily",
+            "Furosemide 40 mg PO DAILY",
+            "Not available."
+        ]
+    },
+    {
+        "query": "Was the patient scheduled for outpatient paracentesis?",
+        "response": "Yes, the patient was scheduled for repeat paracentesis as an outpatient.",
+        "original_answer": "Yes",
+        "source_documents": [
+            "Not available.",
+            "Patient is scheduled for repeat paracentesis as outpatient on .",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What dietary instructions were given on discharge?",
+        "response": "The dietary instructions given on discharge were a 1.5L fluid restriction and a low salt diet.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "Not available.",
+            "1.5L fluid restriction, low salt diet.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What is the patient\u2019s diagnosis on discharge?",
+        "response": "Not available.",
+        "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What were the lab values for serum sodium on admission?",
+        "response": "The lab value for serum sodium on admission was 125.",
+        "original_answer": "125",
+        "source_documents": [
+            "Na 125 on admission",
+            "Na-141",
+            "Not available.",
+            "Na-127*",
+            "Na 125"
+        ]
+    },
+    {
+        "query": "What medications were prescribed for hepatic encephalopathy?",
+        "response": "The medications prescribed for hepatic encephalopathy are Lactulose, with a dosage of 15 mL to 30 mL three times a day (TID), and Rifaximin, with a dosage of 550 mg twice a day (BID).",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "Not available.",
+            "lactulose 30mL TID and rifaximin 550mg BID",
+            "Lactulose 15 mL PO TID, Rifaximin 550 mg PO BID",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What was the reason for the therapeutic paracentesis?",
+        "response": "The reason for the therapeutic paracentesis was the patient's worsening ascites, which is a complication of their HCV cirrhosis.",
+        "original_answer": "Abdominal pain and worsening distension due to ascites",
+        "source_documents": [
+            "worsening ascites and fluid overload",
+            "HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses",
+            "The patient presented with worsening ascites.",
+            "Not available.",
+            "HCV cirrhosis complicated by ascites and HE admitted with abdominal distention and pain."
+        ]
+    }
+]

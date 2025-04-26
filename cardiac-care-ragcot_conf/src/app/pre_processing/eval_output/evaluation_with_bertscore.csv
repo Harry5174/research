@@ -1,0 +1,62 @@
+question,ground_truth,model_answer,bert_precision,bert_recall,bert_f1
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the symptoms that led to admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",0.794,0.887,0.838
+What is the furosemide dosage on discharge?,Furosemide 40 mg PO DAILY,"The furosemide dosage on discharge is 40 mg PO daily. In one instance, the dosage is 10 mg PO DAILY, achieved by taking 0.5 of a 20 mg tablet. The dosage was increased to 40mg daily in one instance due to elevated potassium levels.",0.84,0.889,0.863
+What dietary instructions were provided on discharge?,Low salt diet and fluid restriction,The patient was instructed to eat a low salt diet to help manage excess fluid. The patient does not follow Na-restricted diets.,0.867,0.897,0.882
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the reasons for admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",0.795,0.886,0.838
+What dietary instructions were provided on discharge?,Low salt diet and fluid restriction,The patient was instructed to eat a low salt diet. The patient does not follow Na-restricted diets.,0.865,0.883,0.874
+What is the patient's MELD score?,MELD score of 10,The patient's MELD score is 10 on this admission.,0.857,0.885,0.871
+What is the furosemide dosage on discharge?,Furosemide 40 mg PO DAILY,The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.,0.823,0.894,0.857
+What dietary instructions were provided on discharge?,Low salt diet and fluid restriction,The patient was instructed to eat a low salt diet. The patient does not follow Na-restricted diets.,0.865,0.883,0.874
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the reasons for admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain, along with a brief period of confusion.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia and abdominal discomfort.",0.793,0.886,0.837
+What medication was prescribed for hepatic encephalopathy?,Lactulose 30mL TID and Rifaximin 550mg BID,Lactulose and rifaximin were prescribed for hepatic encephalopathy. The dosage for Lactulose is 30 mL PO TID and Rifaximin is 550 mg PO BID. The lactulose is to be titrated to 3 BMs daily.,0.859,0.915,0.886
+What is the furosemide dosage on discharge?,Furosemide 40 mg PO DAILY,The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.,0.823,0.894,0.857
+What is the furosemide dosage on discharge?,Furosemide 40 mg PO DAILY,The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.,0.823,0.894,0.857
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the symptoms that led to admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",0.794,0.887,0.838
+What is the discharge diagnosis?,HCV cirrhosis with ascites and hepatic encephalopathy,"The discharge diagnosis is portal hypertension. The patient presented with stomach pain and worsening distension, and required paracentesis to remove 1.5L of fluid from her abdomen.",0.833,0.828,0.83
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the reasons for admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",0.795,0.886,0.838
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the reasons for admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain, along with a brief period of confusion.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia and abdominal discomfort.",0.793,0.886,0.837
+What is the discharge diagnosis?,HCV cirrhosis with ascites and hepatic encephalopathy,"The discharge diagnosis is portal hypertension. The patient presented with stomach pain and worsening distension, and required paracentesis to remove 1.5L of fluid from her abdomen.",0.833,0.828,0.83
+What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the reasons for admission based on the provided contexts:
+
+*   Worsening girth and abdominal pain.
+*   Worsening abdominal distension and pain.
+*   Abdominal distention and pain.
+*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.
+*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",0.795,0.886,0.838
+What is the discharge diagnosis?,HCV cirrhosis with ascites and hepatic encephalopathy,"The discharge diagnosis is portal hypertension. The patient also had ascites, which was treated with paracentesis and diuretics (Lasix and Aldactone).",0.823,0.846,0.834

@@ -1,0 +1,11 @@
+question,ground_truth,model_answer,exact_match,f1_score
+What is the MELD score of the patient on admission?,MELD score of 10,The patient's MELD score was 10 on admission.,0,0.5
+What medications were discontinued due to high potassium levels?,Spironolactone,"Spironolactone was discontinued due to elevated potassium. However, in another instance, no medications were discontinued due to high potassium levels.",0,0.111
+What procedure was used to remove fluid from the patient's abdomen?,Therapeutic paracentesis,"The patient had a paracentesis to remove fluid from her abdomen. This procedure was both diagnostic and therapeutic. The amount of fluid removed varied, with volumes of 1.5L, 3L, and 4.3L documented.",0,0.067
+What is the dosage of furosemide prescribed on discharge?,40 mg PO DAILY,"The dosage of furosemide prescribed on discharge is 40 mg PO daily. The prescription is for furosemide 40 mg, 1 tablet by mouth daily.",0,0.261
+Was the patient scheduled for outpatient paracentesis?,Yes,"Yes, the patient is scheduled for a repeat paracentesis as an outpatient. She requires biweekly therapeutic paracenteses due to HCV cirrhosis c/b ascites.",0,0.0
+What dietary instructions were given on discharge?,Low salt diet and fluid restriction,The patient was instructed to follow a low salt diet. It is unclear if the patient is compliant with this diet.,0,0.174
+What is the patient’s diagnosis on discharge?,"Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",Not available,0,0.0
+What were the lab values for serum sodium on admission?,125,"The serum sodium on admission was 125 mEq/L, 141, and 127 mEq/L.",0,0.154
+What medications were prescribed for hepatic encephalopathy?,Lactulose 30mL TID and Rifaximin 550mg BID,"Lactulose and rifaximin were prescribed for hepatic encephalopathy. Examples of dosages include lactulose 30mL TID, lactulose 15 mL PO TID, and rifaximin 550mg BID. The lactulose is sometimes titrated to 3 BMs daily.",0,0.294
+What was the reason for the therapeutic paracentesis?,Abdominal pain and worsening distension due to ascites,"The therapeutic paracentesis was performed due to ascites, which caused abdominal discomfort, abdominal distention, and pain. The ascites was secondary to HCV cirrhosis. The patient reported a significant improvement in her pain after the paracentesis.",0,0.324

@@ -1,0 +1,105 @@
+[
+    {
+        "query": "What is the MELD score of the patient on admission?",
+        "gemini_answer": "The patient's MELD score was 10 on admission.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "The MELD score cannot be calculated from the information provided.",
+            "The patient's MELD score was 10 on admission.",
+            "The MELD score cannot be calculated from the information provided.",
+            "The MELD score cannot be calculated from the information provided. The MELD score requires the total bilirubin, creatinine, and INR values, which are not all present in the provided data."
+        ]
+    },
+    {
+        "query": "What medications were discontinued due to high potassium levels?",
+        "gemini_answer": "Spironolactone was discontinued due to elevated potassium. However, in another instance, no medications were discontinued due to high potassium levels.",
+        "original_answer": "Spironolactone",
+        "source_documents": [
+            "Spironolactone was discontinued due to elevated potassium.",
+            "Spironolactone was discontinued because your potassium was high.",
+            "The patient's Spironolactone dose was chosen at 50mg daily instead of the usual 100mg dose due to a K+ of 4.5. No medications were discontinued due to high potassium levels."
+        ]
+    },
+    {
+        "query": "What procedure was used to remove fluid from the patient's abdomen?",
+        "gemini_answer": "The patient had a paracentesis to remove fluid from her abdomen. This procedure was both diagnostic and therapeutic. The amount of fluid removed varied, with volumes of 1.5L, 3L, and 4.3L documented.",
+        "original_answer": "Therapeutic paracentesis",
+        "source_documents": [
+            "A paracentesis was performed to remove 1.5L of fluid from the patient's abdomen.",
+            "The patient had a diagnostic and therapeutic paracentesis to remove fluid from her abdomen. She had 3L of fluid removed during a recent admission.",
+            "The patient had a diagnostic and therapeutic paracentesis. During this procedure, 4.3 L of fluid was removed from the abdomen.",
+            "The patient had ascites requiring biweekly therapeutic paracenteses. She felt overdue for a paracentesis.",
+            "The patient had therapeutic paracentesis with 4.3L removed. After the procedure, she received 37.5G albumin IV. She is scheduled for a repeat paracentesis as an outpatient."
+        ]
+    },
+    {
+        "query": "What is the dosage of furosemide prescribed on discharge?",
+        "gemini_answer": "The dosage of furosemide prescribed on discharge is 40 mg PO daily. The prescription is for furosemide 40 mg, 1 tablet by mouth daily.",
+        "original_answer": "40 mg PO DAILY",
+        "source_documents": [
+            "The patient is prescribed furosemide 20 mg, with instructions to take one half (0.5) of a tablet by mouth daily, resulting in a dosage of 10 mg PO DAILY.",
+            "The dosage of furosemide prescribed on discharge is 40 mg PO daily.",
+            "The patient was prescribed 10mg of furosemide daily on discharge.",
+            "The discharge medication list includes furosemide 40 mg PO DAILY. The prescription is for furosemide 40 mg, 1 tablet by mouth daily, with a quantity of 30 tablets and 3 refills."
+        ]
+    },
+    {
+        "query": "Was the patient scheduled for outpatient paracentesis?",
+        "gemini_answer": "Yes, the patient is scheduled for a repeat paracentesis as an outpatient. She requires biweekly therapeutic paracenteses due to HCV cirrhosis c/b ascites.",
+        "original_answer": "Yes",
+        "source_documents": [
+            "Yes, the patient has HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses. She felt overdue for a paracentesis. She last had paracentesis on the [DATE].",
+            "Yes, the patient is scheduled for a repeat paracentesis as an outpatient."
+        ]
+    },
+    {
+        "query": "What dietary instructions were given on discharge?",
+        "gemini_answer": "The patient was instructed to follow a low salt diet. It is unclear if the patient is compliant with this diet.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "The patient was instructed to follow a low salt diet. It is unclear if the patient is compliant with this diet."
+        ]
+    },
+    {
+        "query": "What is the patient\u2019s diagnosis on discharge?",
+        "gemini_answer": "Not available",
+        "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",
+        "source_documents": [
+            "The provided text does not contain discharge diagnoses.",
+            "The provided context does not contain the patient's diagnosis on discharge. It only includes the patient's history, physical exam findings, and 24-hour data."
+        ]
+    },
+    {
+        "query": "What were the lab values for serum sodium on admission?",
+        "gemini_answer": "The serum sodium on admission was 125 mEq/L, 141, and 127 mEq/L.",
+        "original_answer": "125",
+        "source_documents": [
+            "The patient's serum sodium was 125 on admission. It was 128 four days prior to admission and 135 one month prior.",
+            "The serum sodium (Na) level on admission was 141.",
+            "The serum sodium on admission (09:20 PM) was 127 mEq/L. The discharge sodium level was 123 mEq/L.",
+            "The serum sodium level on admission was 125."
+        ]
+    },
+    {
+        "query": "What medications were prescribed for hepatic encephalopathy?",
+        "gemini_answer": "Lactulose and rifaximin were prescribed for hepatic encephalopathy. Examples of dosages include lactulose 30mL TID, lactulose 15 mL PO TID, and rifaximin 550mg BID. The lactulose is sometimes titrated to 3 BMs daily.",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "This document does not contain information about medications prescribed for hepatic encephalopathy.",
+            "Lactulose 30mL TID and rifaximin 550mg BID were prescribed for hepatic encephalopathy. The lactulose is to be titrated to 3 BMs daily.",
+            "Lactulose 15 mL PO TID and Rifaximin 550 mg PO BID were prescribed for hepatic encephalopathy.",
+            "The patient was prescribed lactulose for hepatic encephalopathy, but she never filled the prescription."
+        ]
+    },
+    {
+        "query": "What was the reason for the therapeutic paracentesis?",
+        "gemini_answer": "The therapeutic paracentesis was performed due to ascites, which caused abdominal discomfort, abdominal distention, and pain. The ascites was secondary to HCV cirrhosis. The patient reported a significant improvement in her pain after the paracentesis.",
+        "original_answer": "Abdominal pain and worsening distension due to ascites",
+        "source_documents": [
+            "The therapeutic paracentesis was performed due to ascites, which caused abdominal discomfort. 4.3L was removed during the procedure.",
+            "The therapeutic paracentesis was required due to ascites secondary to HCV cirrhosis. The patient has been having biweekly therapeutic paracenteses.",
+            "The patient presented with worsening ascites and reported a significant improvement in her pain after the paracentesis.",
+            "The therapeutic paracentesis was performed due to abdominal distention and pain. The patient's history includes HCV cirrhosis complicated by ascites."
+        ]
+    }
+]

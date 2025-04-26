@@ -1,0 +1,20 @@
+question,exact_match,f1_score
+What symptoms led to admission?,0,0.16
+What is the furosemide dosage on discharge?,0,0.263
+What dietary instructions were provided on discharge?,0,0.24
+What symptoms led to admission?,0,0.167
+What dietary instructions were provided on discharge?,0,0.19
+What is the patient's MELD score?,0,0.462
+What is the furosemide dosage on discharge?,0,0.242
+What dietary instructions were provided on discharge?,0,0.19
+What symptoms led to admission?,0,0.151
+What medication was prescribed for hepatic encephalopathy?,0,0.258
+What is the furosemide dosage on discharge?,0,0.242
+What is the furosemide dosage on discharge?,0,0.242
+What symptoms led to admission?,0,0.16
+What is the discharge diagnosis?,0,0.129
+What symptoms led to admission?,0,0.167
+What symptoms led to admission?,0,0.151
+What is the discharge diagnosis?,0,0.129
+What symptoms led to admission?,0,0.167
+What is the discharge diagnosis?,0,0.154

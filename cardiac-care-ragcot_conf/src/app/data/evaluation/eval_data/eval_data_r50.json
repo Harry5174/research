@@ -1,0 +1,83 @@
+[
+    {
+      "query": "What is the patient's MELD score on admission?",
+      "original_answer": "MELD score of 10"
+    },
+    {
+      "query": "Which medication was discontinued due to high potassium levels?",
+      "original_answer": "Spironolactone"
+    },
+    {
+      "query": "What procedure was performed to remove fluid from the patient's abdomen?",
+      "original_answer": "Therapeutic paracentesis"
+    },
+    {
+      "query": "What is the furosemide dosage prescribed on discharge?",
+      "original_answer": "40 mg PO DAILY"
+    },
+    {
+      "query": "Was the patient scheduled for outpatient paracentesis?",
+      "original_answer": "Yes"
+    },
+    {
+      "query": "What dietary instructions were given on discharge?",
+      "original_answer": "Low salt diet and fluid restriction"
+    },
+    {
+      "query": "What is the patient's discharge diagnosis?",
+      "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD"
+    },
+    {
+      "query": "What were the lab values for serum sodium on admission?",
+      "original_answer": "125"
+    },
+    {
+      "query": "Which medications were prescribed for hepatic encephalopathy?",
+      "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID"
+    },
+    {
+      "query": "What was the reason for performing paracentesis?",
+      "original_answer": "Abdominal pain and worsening distension due to ascites"
+    },
+    {
+      "query": "What were the initial vital signs in the ED?",
+      "original_answer": "98.4°F, HR 70, BP 106/63, RR 16, SpO2 97% on RA"
+    },
+    {
+      "query": "What are the key elements of the patient's past medical history?",
+      "original_answer": "HCV cirrhosis, HIV on ART, history of IVDU, COPD, bipolar disorder, and PTSD"
+    },
+    {
+      "query": "What did the patient report about her medication adherence?",
+      "original_answer": "The patient self-discontinued lasix and spironolactone because she felt they didn't do anything"
+    },
+    {
+      "query": "What imaging studies were performed in the ED?",
+      "original_answer": "Ultrasound and CT scan were performed"
+    },
+    {
+      "query": "What lab abnormalities were noted on admission?",
+      "original_answer": "ALT 100, AST 114, Tbili 1.6, WBC 5K, platelet 77, INR 1.6"
+    },
+    {
+      "query": "What was the patient's chief complaint on admission?",
+      "original_answer": "Worsening abdominal distension and pain"
+    },
+    {
+      "query": "What service was the patient admitted to?",
+      "original_answer": "MEDICINE"
+    },
+    {
+      "query": "What is the patient's sex?",
+      "original_answer": "F"
+    },
+    {
+      "query": "What is the patient's allergy status?",
+      "original_answer": "No Known Allergies / Adverse Drug Reactions"
+    },
+    {
+      "query": "What mental status changes did the patient experience?",
+      "original_answer": "Brief period of confusion and forgetfulness"
+    }
+  ]
+  

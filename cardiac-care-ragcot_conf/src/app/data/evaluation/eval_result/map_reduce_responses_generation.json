@@ -1,0 +1,207 @@
+[
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the symptoms that led to admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient reported discontinuing lasix and spirnolactone weeks ago and not following Na-restricted diets, which contributed to the worsening condition. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What is the furosemide dosage on discharge?",
+        "gemini_answer": "The furosemide dosage on discharge is 40 mg PO daily. In one instance, the dosage is 10 mg PO DAILY, achieved by taking 0.5 of a 20 mg tablet. The dosage was increased to 40mg daily in one instance due to elevated potassium levels.",
+        "original_answer": "Furosemide 40 mg PO DAILY",
+        "source_documents": [
+            "The patient was discharged on 40 mg of Lasix daily. Lasix is the brand name for furosemide.",
+            "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for 30 tablets with 3 refills.",
+            "The patient was started on furosemide 10mg daily. This is a new medication for the patient.",
+            "The furosemide dosage on discharge is 10 mg PO DAILY. The prescription is for furosemide 20 mg, but the instructions are to take 0.5 (one half) tablet daily, which equals 10 mg.",
+            "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone."
+        ]
+    },
+    {
+        "query": "What dietary instructions were provided on discharge?",
+        "gemini_answer": "The patient was instructed to eat a low salt diet to help manage excess fluid. The patient does not follow Na-restricted diets.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "The patient was instructed to eat a low salt diet. This is to help manage excess fluid.",
+            "The patient does not follow Na-restricted diets. No other dietary instructions were provided in the context."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the reasons for admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient reported discontinuing lasix and spirnolactone weeks ago and not following Na-restricted diets, which contributed to the worsening condition. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What dietary instructions were provided on discharge?",
+        "gemini_answer": "The patient was instructed to eat a low salt diet. The patient does not follow Na-restricted diets.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "The patient was instructed to eat a low salt diet.",
+            "The patient does not follow Na-restricted diets. No other dietary instructions were provided in the context."
+        ]
+    },
+    {
+        "query": "What is the patient's MELD score?",
+        "gemini_answer": "The patient's MELD score is 10 on this admission.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "The provided context does not contain the information needed to calculate the MELD score. The MELD score requires the total bilirubin, creatinine, and INR values, which are not all present.",
+            "The patient's MELD score is 10 on this admission.",
+            "The MELD score cannot be calculated from the information provided. The MELD score requires the following lab values: bilirubin, creatinine, and INR.",
+            "The MELD score cannot be calculated from the information provided."
+        ]
+    },
+    {
+        "query": "What is the furosemide dosage on discharge?",
+        "gemini_answer": "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.",
+        "original_answer": "Furosemide 40 mg PO DAILY",
+        "source_documents": [
+            "The patient was discharged on 40 mg of Lasix daily. Lasix is the brand name for furosemide.",
+            "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for 30 tablets with 3 refills.",
+            "The patient was started on furosemide 10mg daily. This is a new medication for the patient.",
+            "The furosemide dosage on discharge is 10 mg PO DAILY. The prescription is for furosemide 20 mg, but the instructions are to take 0.5 (one half) tablet daily, which equals 10 mg.",
+            "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone."
+        ]
+    },
+    {
+        "query": "What dietary instructions were provided on discharge?",
+        "gemini_answer": "The patient was instructed to eat a low salt diet. The patient does not follow Na-restricted diets.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "The patient was instructed to eat a low salt diet.",
+            "The patient does not follow Na-restricted diets. No other dietary instructions were provided in the context."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the reasons for admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain, along with a brief period of confusion.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient also reported self-discontinuing lasix and spirnolactone and not following Na-restricted diets. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What medication was prescribed for hepatic encephalopathy?",
+        "gemini_answer": "Lactulose and rifaximin were prescribed for hepatic encephalopathy. The dosage for Lactulose is 30 mL PO TID and Rifaximin is 550 mg PO BID. The lactulose is to be titrated to 3 BMs daily.",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "Lactulose 30mL TID and rifaximin 550mg BID were prescribed for hepatic encephalopathy. The lactulose is to be titrated to 3 BMs daily.",
+            "Lactulose 30 mL PO TID and Rifaximin 550 mg PO BID were prescribed. The discharge instructions mention the patient's abdominal pain was likely due to increasing fluid in the abdomen from cirrhosis.",
+            "Lactulose and Rifaximin were prescribed for the patient. The dosage for Lactulose is 30 mL PO TID and Rifaximin is 550 mg PO BID.",
+            "The patient was continued on rifaximin and lactulose for hepatic encephalopathy in-house and at discharge."
+        ]
+    },
+    {
+        "query": "What is the furosemide dosage on discharge?",
+        "gemini_answer": "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.",
+        "original_answer": "Furosemide 40 mg PO DAILY",
+        "source_documents": [
+            "The patient was discharged on 40 mg of Lasix daily. Lasix is the brand name for furosemide.",
+            "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for 30 tablets with 3 refills.",
+            "The patient was started on furosemide 10mg daily. This is a new medication for the patient.",
+            "The furosemide dosage on discharge is 10 mg PO DAILY. The prescription is for furosemide 20 mg, but the instructions are to take 0.5 (one half) tablet daily, which equals 10 mg.",
+            "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone."
+        ]
+    },
+    {
+        "query": "What is the furosemide dosage on discharge?",
+        "gemini_answer": "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone. The prescription is for 30 tablets with 3 refills.",
+        "original_answer": "Furosemide 40 mg PO DAILY",
+        "source_documents": [
+            "The patient was discharged on 40 mg of Lasix daily. Lasix is the brand name for furosemide.",
+            "The discharge furosemide dosage is 40 mg PO DAILY. The prescription is for 30 tablets with 3 refills.",
+            "The patient was started on furosemide 10mg daily. This is a new medication for the patient.",
+            "The furosemide dosage on discharge is 10 mg PO DAILY. The prescription is for furosemide 20 mg, but the instructions are to take 0.5 (one half) tablet daily, which equals 10 mg.",
+            "The furosemide dosage on discharge is 40 mg PO daily. The dosage was increased due to elevated potassium levels and the need to discontinue spironolactone."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the symptoms that led to admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient reported discontinuing lasix and spirnolactone weeks ago and not following Na-restricted diets, which contributed to the worsening condition. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What is the discharge diagnosis?",
+        "gemini_answer": "The discharge diagnosis is portal hypertension. The patient presented with stomach pain and worsening distension, and required paracentesis to remove 1.5L of fluid from her abdomen.",
+        "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy",
+        "source_documents": [
+            "The patient was discharged with a diagnosis of portal hypertension. She came in with stomach pain and worsening distension, and had 1.5L of fluid removed from her belly via paracentesis. She was also prescribed 40 mg of Lasix and 50 mg of Aldactone to help her urinate the excess fluid."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the reasons for admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient reported discontinuing lasix and spirnolactone weeks ago and not following Na-restricted diets, which contributed to the worsening condition. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the reasons for admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain, along with a brief period of confusion.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient also reported self-discontinuing lasix and spirnolactone and not following Na-restricted diets. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What is the discharge diagnosis?",
+        "gemini_answer": "The discharge diagnosis is portal hypertension. The patient presented with stomach pain and worsening distension, and required paracentesis to remove 1.5L of fluid from her abdomen.",
+        "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy",
+        "source_documents": [
+            "The patient was discharged with a diagnosis of portal hypertension. She came in with stomach pain and worsening distension, and had 1.5L of fluid removed from her belly via paracentesis. She was also prescribed 40 mg of Lasix and 50 mg of Aldactone to help her urinate the excess fluid."
+        ]
+    },
+    {
+        "query": "What symptoms led to admission?",
+        "gemini_answer": "Here are the reasons for admission based on the provided contexts:\n\n*   Worsening girth and abdominal pain.\n*   Worsening abdominal distension and pain.\n*   Abdominal distention and pain.\n*   Nasal fractures, epistaxis, nausea, coughing up blood, feeling lightheaded, hypotension, bradycardia, and brief loss of consciousness.\n*   Decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), hyponatremia, and abdominal discomfort.",
+        "original_answer": "Worsening abdominal distension and pain",
+        "source_documents": [
+            "Worsening girth and abdominal pain led to admission. The patient reported constant epigastric pain that radiated to her back, which was not associated with food. She felt overdue for a paracentesis.",
+            "Worsening abdominal distension and pain led to admission. The patient reported discontinuing lasix and spirnolactone weeks ago and not following Na-restricted diets, which contributed to the worsening condition. She also had a brief period of confusion.",
+            "The patient was admitted due to abdominal distention and pain. She has a history of HCV cirrhosis complicated by ascites and HE. She was recently admitted for the same symptoms and had 3L fluid removed.",
+            "The patient presented with nasal fractures and epistaxis secondary to a fall. He also had an episode of nausea, coughed up blood, felt lightheaded, and was noted to be hypotensive and bradycardic, with a brief loss of consciousness.",
+            "The patient was admitted due to decompensated cirrhosis with ascites, mild encephalopathy (hallucinations and forgetfulness), and hyponatremia. She also had abdominal discomfort."
+        ]
+    },
+    {
+        "query": "What is the discharge diagnosis?",
+        "gemini_answer": "The discharge diagnosis is portal hypertension. The patient also had ascites, which was treated with paracentesis and diuretics (Lasix and Aldactone).",
+        "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy",
+        "source_documents": [
+            "The patient was discharged with a diagnosis of portal hypertension. She came in with stomach pain and worsening distension and had 1.5L of fluid removed from her belly via paracentesis. She was also prescribed 40 mg of Lasix and 50 mg of Aldactone to help her urinate the excess fluid."
+        ]
+    }
+]

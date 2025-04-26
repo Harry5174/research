@@ -1,0 +1,101 @@
+[
+    {
+        "query": "What is the MELD score of the patient on admission?",
+        "response": "The MELD score of the patient on admission is 10.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "ADMISSION: 08:15PM BLOOD WBC-11.3* RBC-4.30* Hgb-14.1 Hct-40.2 MCV-93 MCH-32.8* MCHC-35.1* RDW-12.8 Plt 08:15PM BLOOD Neuts-91.1* Lymphs-4.7* Monos-3.8 Eos-0.3 Baso-0.1 08:15PM BLOOD PTT-26.8 08:15PM BLOOD Glucose-159* UreaN-36* Creat-1.5* Na-141 K-4.1 Cl-106 HCO3-21* AnGap-18 06:03AM BLOOD CK(CPK)-594* CARDIAC MARKER TREND: 07:45AM BLOOD cTropnT-0.04* 06:03AM BLOOD CK-MB-36* MB Indx-6.1* cTropnT-0.57* 03:03PM BLOOD CK-MB-23* MB Indx-4.2 cTropnT",
+            "- MELD score of 10 and Child's class B on this admission. Now decompensated due to ascites."
+        ]
+    },
+    {
+        "query": "What medications were discontinued due to high potassium levels?",
+        "response": "Spironolactone was discontinued due to high potassium levels.",
+        "original_answer": "Spironolactone",
+        "source_documents": [
+            "Discontinued spironolactone elevated potassium - Increased furosemide to 40mg daily - Please recheck electrolytes at next visit",
+            "- Your spironolactone was discontinued because your potassium was high.\n- Please continue to follow a low sodium diet and fluid restriction.",
+            "- Medications on Admission: The Preadmission Medication list is accurate and complete.\n- 1. Furosemide 20 mg PO DAILY\n- 2. Spironolactone 50 mg PO DAILY\n- 3. Albuterol Inhaler 2 PUFF IH Q4H:PRN wheezing, SOB\n- 4. Raltegravir 400 mg PO BID\n- 5. Emtricitabine-Tenofovir (Truvada) 1 TAB PO DAILY\n- 6. Nicotine Patch 14 mg TD DAILY\n- 7. Ipratropium Bromide Neb 1 NEB IH Q6H SOB\n- Discharge Medications:\n- 1. Albuterol Inhaler 2 PUFF IH Q4H:PRN wheezing, SOB\n- 2. Emtricitabine-Tenofovir (Truvada) 1 TAB PO DAILY\n- 3. Furosemide 40 mg PO DAILY RX *furosemide 40 mg 1 tablet(s) by mouth Daily Disp #*30 Tablet Refills:*3\n-"
+        ]
+    },
+    {
+        "query": "What procedure was used to remove fluid from the patient's abdomen?",
+        "response": "The procedure used to remove fluid from the patient's abdomen was a paracentesis.",
+        "original_answer": "Therapeutic paracentesis",
+        "source_documents": [
+            "While you were here we did a paracentesis to remove 1.5L of fluid from your belly.",
+            "\"diagnostic paracentesis therapeutic paracentesis\", \"3L fluid removed (no SBP) three days ago\", \"ascites\", \"diuretics were recently decreased on due to worsening hyponatremia 128 and hyperkalemia 5.1\", \"lactulose prescription\", \"visual hallucinations and forgetfulness\", \"98.9 88 116/88 18 97% RA\", \"CBC near baseline, INR 1.4, Na 125, Cr 0.6\", \"AST and ALT mildly above baseline 182 and 126 and albumin 2.8\", \"Diagnostic para with 225 WBC, 7% PMN, total protein 0.3\", \"UA with few bact, 6 WBC, mod leuk, neg nitr, but contaminated with 6 epi\", \"CXR clear\", \"RUQ US with no PV thrombus, moderate ascites\", \"ondansetron 4mg IV and morphine 2.5mg IV x1\", \"she is feeling improved but still has abdominal distention and discomfort\"",
+            "You had a diagnostic and therapeutic paracentesis with 4.3 L removed."
+        ]
+    },
+    {
+        "query": "What is the dosage of furosemide prescribed on discharge?",
+        "response": "The dosage of furosemide prescribed on discharge is 10 mg daily.",
+        "original_answer": "40 mg PO DAILY",
+        "source_documents": [
+            "Furosemide 10 mg PO DAILY RX *furosemide 20 mg 0.5 (One half) tablet(s) by mouth Please take 1 tablet daily. Disp #*15 Tablet Refills:*0",
+            "Increased furosemide to 40mg daily",
+            "Furosemide 10mg daily (new)"
+        ]
+    },
+    {
+        "query": "Was the patient scheduled for outpatient paracentesis?",
+        "response": "Yes, the patient was scheduled for repeat paracentesis as an outpatient.",
+        "original_answer": "Yes",
+        "source_documents": [
+            "- F Service: MEDICINE\n- Major Surgical or Invasive Procedure: Paracentesis\n- History of Present Illness: w/ HIV on HAART, COPD on 3L home O2 (though sat'ing fine on RA on admission), HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses, hepatic encephalopathy; not on transplant list comorbidities) p/w worsening girth and abd pain. She'd been having pain from her ascites, and felt overdue for a paracentesis. She last had paracentesis on the .\n- She reported that she began feeling worsening abdominal pain (constant, epigastric and radiates to back, not a/w food) on , which increased in severity throughout the course of the day.\n- Past Medical History: - HCV Cirrhosis: genotype 3a - HIV: on HAART, CD4 count 173, HIV viral",
+            "- \"Patient is scheduled for repeat paracentesis as outpatient on . # HEPATIC ENCEPHALOPATHY.\"\n- \"S/p therapeutic paracentesis with albumin replacement.\"\n- \"CIRRHOSIS, HEPATITIS C.\"\n- \"Now decompensated due to ascites.\"\n- \"Dr. starting and with patient in clinic and the insurance process was started by her office.\"\n- \"Unclear if truly compliant with low salt diet.\"\n- \"Low albumin 2.8 on admission.\"\n- \"COAGULOPATHY.\"\n- \"INR 1.4 four days ago.\"\n- \"COPD. Stable.\"",
+            "therapeutic paracentesis History of Present Illness: with HIV on HAART, COPD, HCV cirrhosis complicated by ascites and HE admitted with abdominal distention and pain. She was admitted to for the same symptoms recently and had 3L fluid removed (no SBP) three days ago and felt better. Since discharge, her abdomen has become increasingly distended with pain. This feels similar to prior episodes of ascites."
+        ]
+    },
+    {
+        "query": "What dietary instructions were given on discharge?",
+        "response": "The dietary instructions given on discharge included following a low salt diet. However, it is unclear if the patient is truly compliant with this dietary recommendation.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "- Dietary instructions were given on discharge",
+            "# NUTRITION. Unclear if truly compliant with low salt diet.",
+            "Discharge: PHYSICAL EXAMINATION: VS: 98 105/70 95 General: in NAD HEENT: anicteric sclera, OP clear Neck: supple, no LAD CV: RRR,S1S2, no m/r/g Lungs: CTAb, prolonged expiratory phase, no w/r/r Abdomen: distended but improved, TTP in RUQ, GU: no foley Ext: wwp, no c/e/e, + clubbing Neuro: AAO3, CN II-XII intact"
+        ]
+    },
+    {
+        "query": "What is the patient\u2019s diagnosis on discharge?",
+        "response": "The patient's diagnosis on discharge is likely related to visual hallucinations and failure to thrive, with a background of HCV cirrhosis complicated by ascites. The specific diagnosis may include hepatic encephalopathy due to liver cirrhosis, which can cause neurological symptoms such as hallucinations. However, the exact discharge diagnosis is not explicitly stated in the context provided.",
+        "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",
+        "source_documents": [
+            "- You were sent to the emergency room by your neurologist who was concerned that you were having visual hallucinations.\n- You were started on a new medication to help treat your symptoms.\n- WHAT SHOULD I DO AFTER I LEAVE THE HOSPITAL? - Continue to take all your medicines and keep your appointments.",
+            "- He was evaluated by neurology who recommended admission to medicine for failure to thrive, to continue the patient's home medications, and complete a toxo-metabolic workup.\n- On arrival to the floor, the patient is comfortable in bed.\n- He knows that he is in the hospital and that it is .\n- He is not sure why he is here and begins to tell me about a party in his house with a motor cross race in his backyard.\n- When I asked him about his fall, he mentions that he has not had a fall for years.\n- He denies any fevers, chills, cough, chest pain, abdominal pain, nausea, diarrhea, or dysuria.",
+            "HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses"
+        ]
+    },
+    {
+        "query": "What were the lab values for serum sodium on admission?",
+        "response": "The lab value for serum sodium on admission was 125.",
+        "original_answer": "125",
+        "source_documents": [
+            "- HYPONATREMIA. Na 125 on admission, 128 four days ago, and 135 one month ago. Likely due to third spacing from worsening ascites and fluid overload. 1.5L fluid restriction, low salt diet. S/p therapeutic paracentesis with albumin replacement.",
+            "08:15PM BLOOD Glucose-159* UreaN-36* Creat-1.5* Na-141 K-4.1 Cl-106 HCO3-21* AnGap-18",
+            "- Outpatient Lab Work Please obtain biweekly BMP to monitor K and Na.\n- Hyperkalemia \n- Hyponatremia"
+        ]
+    },
+    {
+        "query": "What medications were prescribed for hepatic encephalopathy?",
+        "response": "The medications prescribed for hepatic encephalopathy are lactulose 30 mL TID and rifaximin 550 mg BID.",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "- Spironolactone 50 mg PO DAILY, chosen over the usual 100mg dose d/t K+ of 4.5.\n- Medications on Admission: The Preadmission Medication list is accurate and complete.\n- Furosemide 40 mg PO DAILY RX *furosemide 40 mg 1 tablet(s) by mouth Daily Disp #*30 Tablet Refills:*3\n- Spironolactone 50 mg PO DAILY\n- Raltegravir 400 mg PO BID\n- Emtricitabine-Tenofovir (Truvada) 1 TAB PO DAILY\n- Ipratropium Bromide Neb 1 NEB IH Q6H SOB\n- Discharge Medications: \n- Furosemide 40 mg PO DAILY \n- Ipratropium Bromide Neb 1 NEB IH Q6H SOB\n- Raltegravir 400 mg PO BID\n- Spironolactone 50 mg PO DAILY",
+            "# HEPATIC ENCEPHALOPATHY. History of HE from Hep C cirrhosis. Now with mild encephalopathy (hallucinations and forgetfulness) due to medication noncompliance, but not acutely encephalopathic and without asterixis on exam. Infectious workup negative thus far. Continue lactulose 30mL TID and titrate to 3 BMs daily and continue rifaximin 550mg BID.",
+            "- Needs outpatient ID provider - needs more frequent paracentesis Medications on Admission: The Preadmission Medication list is accurate and complete.\n- 4. Furosemide 20 mg PO DAILY\n- 5. Spironolactone 50 mg PO DAILY\n- 8. Rifaximin 550 mg PO BID\n- 10. Lactulose 15 mL PO TID"
+        ]
+    },
+    {
+        "query": "What was the reason for the therapeutic paracentesis?",
+        "response": "The reason for the therapeutic paracentesis was to manage the patient's worsening ascites due to decompensated HCV cirrhosis, which was causing her significant abdominal pain.",
+        "original_answer": "Abdominal pain and worsening distension due to ascites",
+        "source_documents": [
+            "Therapeutic paracentesis with 4.3L removed and received 37.5G albumin IV post procedure.",
+            "Date of Birth: Sex: F Service: MEDICINE Major Surgical or Invasive Procedure: Paracentesis History of Present Illness: HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses, hepatic encephalopathy; not on transplant list comorbidities) p/w worsening girth and abd pain. She'd been having pain from her ascites, and felt overdue for a paracentesis. She last had paracentesis on the . She reported that she began feeling worsening abdominal pain (constant, epigastric and radiates to back, not a/w food) on .",
+            "- Decompensated HCV cirrhosis with ascites: The patient presented with worsening ascites. Her pain was initially managed with tramadol and morphine. She underwent paracentesis on with removal of 3.5L and she received albumin. Studies on the fluid were negative, and she reported a significant improvement in her pain."
+        ]
+    }
+]

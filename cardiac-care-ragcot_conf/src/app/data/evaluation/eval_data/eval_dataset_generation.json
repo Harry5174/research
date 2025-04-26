@@ -1,0 +1,78 @@
+[
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What is the furosemide dosage on discharge?",
+    "original_answer": "Furosemide 40 mg PO DAILY"
+  },
+  {
+    "query": "What dietary instructions were provided on discharge?",
+    "original_answer": "Low salt diet and fluid restriction"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What dietary instructions were provided on discharge?",
+    "original_answer": "Low salt diet and fluid restriction"
+  },
+  {
+    "query": "What is the patient's MELD score?",
+    "original_answer": "MELD score of 10"
+  },
+  {
+    "query": "What is the furosemide dosage on discharge?",
+    "original_answer": "Furosemide 40 mg PO DAILY"
+  },
+  {
+    "query": "What dietary instructions were provided on discharge?",
+    "original_answer": "Low salt diet and fluid restriction"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What medication was prescribed for hepatic encephalopathy?",
+    "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID"
+  },
+  {
+    "query": "What is the furosemide dosage on discharge?",
+    "original_answer": "Furosemide 40 mg PO DAILY"
+  },
+  {
+    "query": "What is the furosemide dosage on discharge?",
+    "original_answer": "Furosemide 40 mg PO DAILY"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What is the discharge diagnosis?",
+    "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What is the discharge diagnosis?",
+    "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy"
+  },
+  {
+    "query": "What symptoms led to admission?",
+    "original_answer": "Worsening abdominal distension and pain"
+  },
+  {
+    "query": "What is the discharge diagnosis?",
+    "original_answer": "HCV cirrhosis with ascites and hepatic encephalopathy"
+  }
+]

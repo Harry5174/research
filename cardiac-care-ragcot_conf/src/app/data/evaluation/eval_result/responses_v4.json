@@ -1,0 +1,122 @@
+[
+    {
+        "query": "What is the MELD score of the patient on admission?",
+        "response": "I'm sorry, but without the specific clinical context or data, I cannot determine the MELD score of the patient on admission. The MELD score is calculated using specific laboratory values, including bilirubin, INR, and creatinine, which are not provided here. Please provide the necessary clinical information to accurately calculate the MELD score.",
+        "original_answer": "MELD score of 10",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What medications were discontinued due to high potassium levels?",
+        "response": "Spironolactone was discontinued due to elevated potassium levels.",
+        "original_answer": "Spironolactone",
+        "source_documents": [
+            "'Discontinued spironolactone elevated potassium'",
+            "Your spironolactone was discontinued because your potassium was high.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What procedure was used to remove fluid from the patient's abdomen?",
+        "response": "The procedure used to remove fluid from the patient's abdomen is called paracentesis.",
+        "original_answer": "Therapeutic paracentesis",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Paracentesis",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What is the dosage of furosemide prescribed on discharge?",
+        "response": "The dosage of furosemide prescribed on discharge is \"Furosemide 40 mg PO DAILY.\" This is the most recent and final value mentioned in the context, despite the presence of a contradictory note stating \"Furosemide 10mg daily (new).\" The discharge prescription clearly specifies the 40 mg dosage.",
+        "original_answer": "40 mg PO DAILY",
+        "source_documents": [
+            "The dosage of furosemide prescribed on discharge is \"10 mg PO DAILY.\"",
+            "Furosemide 40 mg PO DAILY",
+            "\"Furosemide 10mg daily (new)\"",
+            "The dosage of furosemide prescribed on discharge is \"Furosemide 40 mg PO DAILY.\"",
+            "Not available."
+        ]
+    },
+    {
+        "query": "Was the patient scheduled for outpatient paracentesis?",
+        "response": "Yes, the patient is scheduled for repeat paracentesis as an outpatient.",
+        "original_answer": "Yes",
+        "source_documents": [
+            "Not available.",
+            "Yes, the patient is scheduled for repeat paracentesis as an outpatient.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What dietary instructions were given on discharge?",
+        "response": "I'm sorry, but there is no information available in the provided context to determine the dietary instructions given on discharge.",
+        "original_answer": "Low salt diet and fluid restriction",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What is the patient\u2019s diagnosis on discharge?",
+        "response": "I'm sorry, but without the specific clinical context or details about the patient's condition, I cannot determine the patient's diagnosis on discharge. Please provide more information or context to assist with an accurate response.",
+        "original_answer": "Diuretic refractory ascites, HCV cirrhosis, HIV, hyponatremia, COPD",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What were the lab values for serum sodium on admission?",
+        "response": "The lab value for serum sodium on admission was 127 mEq/L.",
+        "original_answer": "125",
+        "source_documents": [
+            "Not available.",
+            "Not available.",
+            "Not available.",
+            "The lab value for serum sodium on admission was Na-127*.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What medications were prescribed for hepatic encephalopathy?",
+        "response": "The medications prescribed for hepatic encephalopathy are rifaximin and lactulose. Rifaximin is prescribed at a dosage of 550 mg taken orally twice daily (BID). Lactulose is prescribed at a dosage of 30 mL taken orally three times daily (TID), with instructions to titrate to achieve three bowel movements daily.",
+        "original_answer": "Lactulose 30mL TID and Rifaximin 550mg BID",
+        "source_documents": [
+            "Not available.",
+            "Continue lactulose 30mL TID and titrate to 3 BMs daily and continue rifaximin 550mg BID.",
+            "Rifaximin 550 mg PO BID and Lactulose 15 mL PO TID were prescribed for hepatic encephalopathy.",
+            "Not available.",
+            "Not available."
+        ]
+    },
+    {
+        "query": "What was the reason for the therapeutic paracentesis?",
+        "response": "The therapeutic paracentesis was performed to relieve abdominal discomfort and distention due to worsening ascites. The ascites is a complication of HCV cirrhosis, and the patient requires biweekly therapeutic paracenteses to manage the condition. The procedure was necessary because the patient's abdomen had become increasingly distended and painful since the last discharge.",
+        "original_answer": "Abdominal pain and worsening distension due to ascites",
+        "source_documents": [
+            "The reason for the therapeutic paracentesis was to relieve abdominal discomfort due to ascites.",
+            "The reason for the therapeutic paracentesis was \"HCV cirrhosis c/b ascites requiring biweekly therapeutic paracenteses.\"",
+            "The reason for the therapeutic paracentesis was \"worsening ascites.\"",
+            "Not available.",
+            "The therapeutic paracentesis was performed due to \"abdominal distention and pain\" and because \"her abdomen has become increasingly distended with pain\" since her last discharge. This was similar to prior episodes of ascites."
+        ]
+    }
+]
