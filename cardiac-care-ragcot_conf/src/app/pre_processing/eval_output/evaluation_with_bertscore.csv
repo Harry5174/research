@@ -1,3 +1,5 @@
+git branch -M main
+git push -u origin main
 question,ground_truth,model_answer,bert_precision,bert_recall,bert_f1
 What symptoms led to admission?,Worsening abdominal distension and pain,"Here are the symptoms that led to admission based on the provided contexts:
 
