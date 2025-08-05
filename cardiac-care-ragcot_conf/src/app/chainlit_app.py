@@ -67,3 +67,7 @@ async def handle_message(msg: cl.Message):
         await cl.ElementSidebar.set_elements([
             cl.Text(name="sources_md", content=md, display="side")
         ])
+        
+@cl.on_stop
+def on_stop():
+    print("The user wants to stop the task!")
