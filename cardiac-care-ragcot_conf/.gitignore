@@ -13,5 +13,6 @@ vector_stores
 .vscode
 deprecated_files
 response_logs
-evaluations
+*evaluation
 *raw
+*processed

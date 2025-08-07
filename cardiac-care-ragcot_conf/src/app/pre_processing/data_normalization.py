@@ -48,7 +48,6 @@ def process_notes(
         print(f"No rows matched cardiac keywords. Original {original_rows} rows (post-cleaning) will be considered if 'df_to_process = df' is used, otherwise no rows processed from this cardiac filter path.")
         df_to_process = df_filtered # Keeps original behavior: if filter empty, process empty
 
-    # Define all columns you expect in the output, even if they might be missing in source
     # These will be pulled from the row, and if missing or NaN, will be set to None (null in JSON)
     output_metadata_cols = ["note_id", "subject_id", "hadm_id", "note_type", "note_seq", "charttime", "storetime"]
 
